@@ -12,13 +12,14 @@ namespace TestNuget.Calculation
         public static double Divide(double a, double b) { return a / b; }
         public static double Modular(int a, int mod) { return a % mod; }
         
-        public static void test()
+        public static void test1()
         {
             Console.WriteLine("test");
         }
         
         public static bool IsPrime(int number)
         {
+            test1();
             if (number <= 1) return false;
             if (number == 2) return true;
             if (number % 2 == 0) return false;
