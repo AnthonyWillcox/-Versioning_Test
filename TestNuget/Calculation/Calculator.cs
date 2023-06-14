@@ -28,4 +28,5 @@ namespace TestNuget.Calculation
             return true;        
         }
     }
+    //
 }
